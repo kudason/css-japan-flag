@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+
+.flag {
+    background-color: whitesmoke;
+    height: 600px;
+    width: 900px;
+    position: relative;
+}
+
+.flag > div {
+    background-color: #bc002d;
+    height: 360px;
+    width: 360px;
+    position: absolute;
+    top: 120px;
+    left: 270px;
+    border-radius: 50%;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: black;
+    font-size: 5rem;
+}
+
+.flag > div p {
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
